@@ -1,0 +1,115 @@
+html {
+  font-family: helvetica;
+  height: auto;
+  width: auto;
+
+}
+
+nav {
+  display: flex;
+}
+
+ nav p {
+   display: flex;
+   position: relative;
+   left: 45%;
+   font-size: 1.3rem;
+   font-weight: lighter;
+ }
+
+nav h1 {
+  color: black;
+}
+
+nav .a {
+  color: grey;
+  font-weight: lighter;
+}
+
+div {
+
+}
+
+p {
+  padding-right: 16px;
+}
+
+.logo {
+  padding-left: 24px;
+  width: 4%;
+  height: 4%;
+}
+
+.first {
+
+  background-color: lightgrey;
+  display: flex;
+}
+
+.first img {
+  width: 60%;
+  height: 40%;
+  padding: 32px 0px 32px 24px;
+}
+
+.ls {
+  height: 200px;
+  font-size: 18.5px;
+  font-weight: bolder;
+  font-family: sans-serif;
+  position: relative;
+  left: 3%;
+  top: 120px;
+}
+
+.ls h1 {
+  width: 300px;
+}
+
+.fl {
+  height: 200px;
+  font-size: 16px;
+  width: auto;
+  position: relative;
+  top: 240px;
+  right: 19.3%;
+}
+
+.fl h3 {
+  width: 450px;
+}
+
+.sh {
+  display: flex;
+  position: relative;
+  top: 350px;
+  right: 53%;
+  background-color: grey;
+  height: 50px;
+  padding: 0px 100px 5px 100px;
+}
+
+.sh h3 {
+  width: 100px;
+  color: white;
+  font-weight: lighter;
+}
+
+.second {
+  margin: 0px 0px 0px 0px;
+}
+
+.second img {
+  width: 60%;
+  height: 40%;
+  padding: 32px 24px 32px 24px;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 65%;
+  bottom: 65%;
+  width: 30%;
+}
